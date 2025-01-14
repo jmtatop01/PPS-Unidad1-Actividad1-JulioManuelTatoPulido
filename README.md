@@ -1,5 +1,4 @@
 # PPS-Unidad1-Actividad1-JulioManuelTatoPulido
-Actividad 1 de la Unidad 1 de Puesta en Producción Segura. Tabajaremos con los Entornos de Desarrollo
 
 Tenemos varios objetivos:
 
@@ -11,14 +10,13 @@ Tenemos varios objetivos:
 ---
 ## Eclipse Docker
 
-
-1. Crear las carpetas necesarias y cambiando el :
+1. Primero creamos las carpetas necesarias y cambiamos el propietario:
 ~~~
 sudo mkdir -p  $HOME/docker/eclipse/datos
 sudo chown -R kali:kali eclipse
 ~~~
 
-2. Configurar el entorno gráfico 
+2. Configuramos el entorno gráfico:
 
 ~~~
 export DISPLAY=:0
@@ -26,7 +24,7 @@ startxwin -- -listen tcp &
 xhost + 
 ~~~
 
-3. Lanzar el contenedor
+3. Lanzamos el contenedor:
 
 ~~~
 sudo docker run -ti --rm \
@@ -38,11 +36,7 @@ sudo docker run -ti --rm \
            -v `pwd`:/workspace \
            -v $HOME/docker/eclipse/datos:/home/developer \
            dockeruc/eclipse
-
 ~~~
- 
-
-> __Explica el comando docker que has utilizado__
 
 ## Instalar extensiones
 
