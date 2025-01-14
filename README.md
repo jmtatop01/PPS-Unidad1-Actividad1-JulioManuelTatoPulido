@@ -11,15 +11,11 @@ Tenemos varios objetivos:
 ---
 ## Eclipse Docker
 
-En [este enlace](https://hub.docker.com/r/dockeruc/eclipse) puedes encontrar podemos crear un contenedor docker con un entorno IDE Eclipse
 
-Lee bien las instrucciones y ten en cuenta que tienes que hacer varias operaciones. Las que tienes a continuación son de un entorno Linux:
-
-1. Crear las carpetas necesarias:
+1. Crear las carpetas necesarias y cambiando el :
 ~~~
-sudo mkdir -p  $HOME/eclipse/datos
-sudo chown -R $(whoami) $HOME/docker/eclipse
-sudo chgrp -R $(whoami) $HOME/docker/eclipse
+sudo mkdir -p  $HOME/docker/eclipse/datos
+sudo chown -R kali:kali eclipse
 ~~~
 
 2. Configurar el entorno gráfico 
@@ -34,13 +30,14 @@ xhost +
 
 ~~~
 sudo docker run -ti --rm \
+           --ulimit nofile=8096:8096\
            -e DISPLAY=$DISPLAY \
 	       -e artifactory_host='IP:PUERTO'\
 		   --name eclipse \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v `pwd`:/workspace \
            -v $HOME/docker/eclipse/datos:/home/developer \
-           dockeruc/eclipse	
+           dockeruc/eclipse
 
 ~~~
  
