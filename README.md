@@ -38,27 +38,52 @@ sudo docker run -ti --rm \
            dockeruc/eclipse
 ~~~
 
-![](2.png)
+<div align="center">
+  <img src="2.png" width="300">
+</div>
 
 ## Instalar extensiones
 
-Las extensiones de un IDE nos van a facilitar la labor de programar, hacer más flexible nuestro IDE, además de hacer nuestros código más seguro.
-Tenemos muchas extensiones, tanto para lenguajes de programación específicos como para el IDE.
+Las dos extensiones que comentaré a continuación han sido instalados en Visual Studio, que va a ser el IDE que vaya a utilizar en estas prácticas.
 
-__Las siguientes operaciones las puedes hacer desde el entorno Eclipse que hemos creado o puedes utilizar el IDE que prefieras en tu equipo__
->__Busca cuáles son las mejores extensiones de eclipse para programadores y las añades desde la tienda de tu IDE__
->__ Busca y escribe para qué sirven estos plugins: Checkstyle, Sonar Lint.__
->__Instala los plugins y complementos que has encontrado. Además busca e instala los plugins Checkstyle y Sonar Lint.__
+### Checkstyle
 
+Checkstyle es un plugin que se utiliza para verificar que el código siga un estándar de estilo definido. Es ideal para mantener la coherencia en equipos grandes, revisando el formato y la estructura del código automáticamente.
+
+<div align="center">
+  <img src="3.png" width="300">
+</div>
+
+### Sonar Lint
+
+SonarLint es un pligun que se utiliza para corregir el código en tiempo real. Detecta errores, vulnerabilidades y problemas de calidad mientras escribes, y funciona con varios lenguajes. Además, ayuda a mejorar la seguridad y limpieza del código desde el principio.
+
+<div align="center">
+  <img src="4.png" width="300">
+</div>
 
 ## Prueba entornos
 
-El entorno de desarrollo nos sirve para crear nuestras aplicaciones y además podemos comprobar los errores que tienen, problemas de seguridad, etc. por lo que desde allí vamos a poder corregirlos.
->__Descarga el código fuente de un proyecto java o python: compila, enlaza y ejecutaló. Tienes algunos ejemplos en la carpeta Sources de este repositorio__
->__Utiliza las herramientas de depuración de Eclipse o Netbeans para depurar el proyecto, y las diferentes extensiones para ver información, problemas, etc.__
+Para empezar he instalado en Visual Studio la extensión de Python:
 
----
-## ENTREGA
->__Crea un repositorio  con nombre PPS-Unidad1Actividad1-Tu nombre que contenga las respuestas a las preguntas y las evidencias de que has realizado las operaciones indicadas.__
+<div align="center">
+  <img src="7.png" width="300">
+</div>
 
->__Sube a la plataforma, tanto el repositorio comprimido como la dirección a tu repositorio de Github.__
+Después he instalado en mi Windows la aplicación de Python 3.11:
+
+<div align="center">
+  <img src="8.png" width="300">
+</div>
+
+Después, he accedido al repoistorio del profesor, donde nos ha dejado diferentes proyectos de calculadoras, para poder probarlos en nuestro IDE:
+
+<div align="center">
+  <img src="5.png" width="300">
+</div>
+
+Pudiendo comprobarlo así con la extensión instalado en Visual Studio:
+
+<div align="center">
+  <img src="6.png" width="300">
+</div>
