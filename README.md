@@ -39,7 +39,7 @@ sudo docker run -ti --rm \
 ~~~
 
 <div align="center">
-  <img src="2.png" width="300">
+  <img src="2.png" width="500">
 </div>
 
 ## Instalar extensiones
@@ -51,7 +51,7 @@ Las dos extensiones que comentaré a continuación han sido instalados en Visual
 Checkstyle es un plugin que se utiliza para verificar que el código siga un estándar de estilo definido. Es ideal para mantener la coherencia en equipos grandes, revisando el formato y la estructura del código automáticamente.
 
 <div align="center">
-  <img src="3.png" width="300">
+  <img src="3.png" width="500">
 </div>
 
 ### Sonar Lint
@@ -59,7 +59,7 @@ Checkstyle es un plugin que se utiliza para verificar que el código siga un est
 SonarLint es un pligun que se utiliza para corregir el código en tiempo real. Detecta errores, vulnerabilidades y problemas de calidad mientras escribes, y funciona con varios lenguajes. Además, ayuda a mejorar la seguridad y limpieza del código desde el principio.
 
 <div align="center">
-  <img src="4.png" width="300">
+  <img src="4.png" width="500">
 </div>
 
 ## Prueba entornos
@@ -67,19 +67,19 @@ SonarLint es un pligun que se utiliza para corregir el código en tiempo real. D
 Para empezar he instalado en Visual Studio la extensión de Python:
 
 <div align="center">
-  <img src="7.png" width="300">
+  <img src="7.png" width="500">
 </div>
 
 Después he instalado en mi Windows la aplicación de Python 3.11:
 
 <div align="center">
-  <img src="8.png" width="300">
+  <img src="8.png" width="500">
 </div>
 
 Después, he accedido al repoistorio del profesor, donde nos ha dejado diferentes proyectos de calculadoras, para poder probarlos en nuestro IDE:
 
 <div align="center">
-  <img src="5.png" width="300">
+  <img src="5.png" width="500">
 </div>
 
 Pudiendo comprobarlo así con la extensión instalado en Visual Studio:
