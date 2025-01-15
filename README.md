@@ -38,6 +38,8 @@ sudo docker run -ti --rm \
            dockeruc/eclipse
 ~~~
 
+![](2.png)
+
 ## Instalar extensiones
 
 Las extensiones de un IDE nos van a facilitar la labor de programar, hacer más flexible nuestro IDE, además de hacer nuestros código más seguro.
